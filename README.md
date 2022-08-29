@@ -38,6 +38,8 @@ Version of the created package
 
 ## Example Usage
 
+```yml
 uses: ianmurfinxyz/parse-package-json@v1
 with:
   json-path: 'info.json'
+```
