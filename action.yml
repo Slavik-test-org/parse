@@ -1,0 +1,19 @@
+name: 'parse-package-json'
+description: 'Greet someone and record the time'
+inputs:
+  json-path:
+    description: 'path to package json metadata file to parse'
+    required: true
+    default: 'package_meta.json'
+outputs:
+  recipe_id:
+    description: 'Recipe id of the package.'
+  package_id:
+    description: 'Package id of the created conan package.'
+  root_path:
+    description: 'Path to the "package" dir in the conan cache.'
+  version:
+    description: 'Version of the created package'
+runs:
+  using: 'node16'
+  main: 'index.js'

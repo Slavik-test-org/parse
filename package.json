@@ -1,0 +1,24 @@
+{
+  "name": "parse-package-json",
+  "version": "1.0.0",
+  "description": "Github Action to parse package info from a conan generated json file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianmurfinxyz/parse-package-json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU GPL3",
+  "bugs": {
+    "url": "https://github.com/ianmurfinxyz/parse-package-json/issues"
+  },
+  "homepage": "https://github.com/ianmurfinxyz/parse-package-json#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3"
+  }
+}
