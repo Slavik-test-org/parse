@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ianmurfinxyz/parse-package-json#readme",
   "dependencies": {
     "@actions/core": "^1.9.1",
-    "@actions/github": "^5.0.3"
+    "@actions/github": "^5.0.3",
+    "ccNetViz": "1.0.19"
   }
 }
